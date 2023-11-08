@@ -20,6 +20,7 @@ const AboutPage = ({ title, content, slug }: IPageProps) => {
           receive the fair and just treatment you deserve throughout the legal
           process.
         </p>
+        <div></div>
       </div>
     </div>
   );
