@@ -5,7 +5,7 @@ import Backgroud from "../../../public/images/Background.png";
 
 import heroClassNames from "./heroClassNames";
 
-const heroText = "Attorney Keista Pass";
+const heroText = "Keista Pass - Attorney at Law";
 const HeroSection: FC<{ showLink?: boolean }> = (props) => {
   const { showLink } = props;
 
@@ -25,7 +25,7 @@ const HeroSection: FC<{ showLink?: boolean }> = (props) => {
             <h1 className="text-3xl lg:text-5xl mb-4 uppercase">
               Reliable Representation
             </h1>
-            <h2 className="text-3xl lg:text-5xl mb-4 uppercase">
+            <h2 className="text-1xl lg:text-3xl mb-4 uppercase">
               For Your Legal Needs
             </h2>
             <p className="text-lg sm:text-xl md:text-2xl mb-8 text-white">
