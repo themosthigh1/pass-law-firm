@@ -21,7 +21,7 @@ const HeroSection: FC<{ showLink?: boolean }> = (props) => {
     >
       <div className="text-white container mx-auto px-10 my-auto">
         <div className="flex flex-col bg-gradient-to-r from-[#36454f]">
-          <div className="py-10 px-10">
+          <div className="py-10 px-auto px-10">
             <h1 className="text-3xl lg:text-5xl mb-4 uppercase">
               Reliable Representation
             </h1>

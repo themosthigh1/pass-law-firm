@@ -45,7 +45,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#36454f] py-10 text-white">
       <div className="container mx-auto py-8 px-6">
-        <div className="flex justify-center">
+        <div className="flex justify-center text-center">
           <h1 className="text-lg">
             Defending Your Rights, Delivering Justice.
           </h1>
@@ -55,7 +55,7 @@ const Footer = () => {
           {headerMenuLinks.map((link, i) => (
             <Link
               href={link.linkPath}
-              className="mx-5 uppercase hover:text-[#99272D]"
+              className="mx-2 uppercase hover:text-[#99272D]"
               key={i}
             >
               <p>{link.linkName}</p>
