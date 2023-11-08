@@ -1,6 +1,6 @@
 import PageTitle from "@/app/components/PageTitle/PageTitle";
 
-const AboutPage = ({ title, content, slug }: IPageProps) => {
+const AboutPage = () => {
   return (
     <div>
       <PageTitle title="About" />
