@@ -28,9 +28,7 @@ const HeroSection: FC<{ showLink?: boolean }> = (props) => {
             <h2 className="text-1xl lg:text-3xl mb-4 uppercase">
               For Your Legal Needs
             </h2>
-            <p className="text-[0.6rem] md:text-2xl mb-8 text-white">
-              {heroText}
-            </p>
+            <p className="text-sm md:text-2xl mb-8 text-white">{heroText}</p>
             <Link href="/contact">
               <button className="bg-[#99272D] hover:bg-red-600 w-50 py-2 px-8">
                 Contact
