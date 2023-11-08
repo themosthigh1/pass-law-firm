@@ -51,14 +51,14 @@ const Footer = () => {
           </h1>
         </div>
         <div className="border-b mt-5 mx-40"></div>
-        <div className="flex mt-5 justify-center">
+        <div className="flex mt-5 justify-center ">
           {headerMenuLinks.map((link, i) => (
             <Link
               href={link.linkPath}
               className="mx-5 uppercase hover:text-[#99272D]"
               key={i}
             >
-              {link.linkName}
+              <p className="sm:text-lg">{link.linkName}</p>
             </Link>
           ))}
         </div>
