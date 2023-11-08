@@ -62,6 +62,15 @@ const Footer = () => {
             </Link>
           ))}
         </div>
+        <div className="flex mt-5 justify-center ">
+          {" "}
+          <Link
+            href="/court-date"
+            className="mx-2 uppercase hover:text-[#99272D]"
+          >
+            Going to Court
+          </Link>
+        </div>
       </div>
     </footer>
   );
