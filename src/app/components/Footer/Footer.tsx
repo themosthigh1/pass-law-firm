@@ -46,7 +46,7 @@ const Footer = () => {
     <footer className="bg-[#36454f] py-10 text-white">
       <div className="container mx-auto py-8 px-6">
         <div className="flex justify-center">
-          <h1 className="text-xl sm:text-lg">
+          <h1 className="text-lg">
             Defending Your Rights, Delivering Justice.
           </h1>
         </div>
@@ -58,7 +58,7 @@ const Footer = () => {
               className="mx-5 uppercase hover:text-[#99272D]"
               key={i}
             >
-              <p className="sm:text-lg">{link.linkName}</p>
+              <p>{link.linkName}</p>
             </Link>
           ))}
         </div>
