@@ -82,7 +82,7 @@ const ContactForm: FC = () => {
         />
         <div>
           <button
-            className="bg-black hover:bg-gray-700 text-white py-2 px-4 transition-all duration-200"
+            className="bg-[#99272D] hover:bg-[#36454f] py-2 px-8 text-white ease-in-out duration-300"
             type="submit"
           >
             Submit

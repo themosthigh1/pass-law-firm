@@ -5,10 +5,8 @@ import Backgroud from "../../../public/images/Background.png";
 
 import heroClassNames from "./heroClassNames";
 
-const heroText = "Keista Pass - Attorney at Law";
-const HeroSection: FC<{ showLink?: boolean }> = (props) => {
-  const { showLink } = props;
-
+const heroText = "Keesta Pass - Attorney at Law";
+const HeroSection: FC = () => {
   return (
     <div
       className="h-screen flex"
@@ -30,7 +28,7 @@ const HeroSection: FC<{ showLink?: boolean }> = (props) => {
             </h2>
             <p className="text-sm md:text-2xl mb-8 text-white">{heroText}</p>
             <Link href="/contact">
-              <button className="bg-[#99272D] hover:bg-red-600 w-50 py-2 px-8">
+              <button className="hover:bg-[#36454f] border bg-[#99272D] text-white w-50 py-2 px-8 mt-5 ease-in-out duration-300">
                 Contact
               </button>
             </Link>

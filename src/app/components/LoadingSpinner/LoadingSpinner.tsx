@@ -6,7 +6,7 @@ const LoadingSpinner = () => {
   return (
     <section className={loadingSpinnerClasses.section}>
       <div>
-        <div>
+        <div className="mb-40">
           <RiseLoader color="#99272D" loading />
         </div>
       </div>

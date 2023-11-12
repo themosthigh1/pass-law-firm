@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 const Content = () => {
   return (
     <div>
-      <div className="px-6 sm:px-12 md:px-20 lg:px-36 mx-auto text-black mb-10">
+      <div>
         <h1 className="mb-5">
           We would love to hear from you! If you have any questions, inquiries,
           or would like to request further information, please feel free to get

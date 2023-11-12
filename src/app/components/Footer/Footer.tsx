@@ -46,7 +46,7 @@ const Footer = () => {
     <footer className="bg-[#36454f] py-10 text-white">
       <div className="container mx-auto py-8 px-6">
         <div className="flex justify-center text-center">
-          <h1 className="text-lg">
+          <h1 className="text-sm md-text-lg">
             Defending Your Rights, Delivering Justice.
           </h1>
         </div>
